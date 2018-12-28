@@ -1,0 +1,44 @@
+{
+  "name": "author-webpack-plugin",
+  "version": "0.0.1",
+  "description": "Add author information in gererated html template",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "semistandard",
+    "prepublish": "npm run test",
+    "posttest": "npm run lint",
+    "test": "ava",
+    "build": "node example/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.xiaojukeji.com/public-fe/author-webpack-plugin"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "html-webpack-plugin",
+    "author",
+    "meta"
+  ],
+  "author": "wangchang@didiglobal.com",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.16.4",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.28.2",
+    "webpack-dev-middleware": "^3.4.0"
+  },
+  "dependencies": {
+    "load-pkg-config": "^1.0.1",
+    "loadsh": "^0.0.3",
+    "lodash": "^4.11.1"
+  },
+  "peerDependencies": {
+    "html-webpack-plugin": "^2.6.2",
+    "webpack": "^1.13.0 || ^2.0.0 || ^3.0.0 || ^4.0.0"
+  }
+}
