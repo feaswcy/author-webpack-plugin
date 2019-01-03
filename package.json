@@ -21,14 +21,15 @@
     "meta"
   ],
   "license": "MIT",
-  "author": "wangchang@didiglobal.com",
   "devDependencies": {
     "express": "^4.16.4",
+    "gitlog": "^3.1.2",
     "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.28.2",
     "webpack-dev-middleware": "^3.4.0"
   },
   "dependencies": {
+    "gitlog": "^3.1.2",
     "load-pkg-config": "^1.0.1",
     "lodash": "^4.11.1"
   },

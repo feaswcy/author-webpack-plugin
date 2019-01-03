@@ -4,7 +4,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 var path = require('path');
 
 module.exports = {
-  mode: 'development',
+  // mode: 'development',
   // context: __dirname,
   // devtool: 'eval',
   entry: path.resolve(__dirname, './src/entry.js'),
