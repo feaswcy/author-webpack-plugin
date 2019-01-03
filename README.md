@@ -29,16 +29,16 @@ plugins : [
 
 
 # Change Log
-# 0.0.1
+## 0.0.1
 
 + init
 
-# 0.0.2
+## 0.0.2
 
 + 增加强校验author
 + 修改插入meta的位置
 
-+ 0.0.4
+## 0.0.3
 
 + 增加从commit自动获取author
 + 增加从repository获得group名称，没有时从git remote中获取

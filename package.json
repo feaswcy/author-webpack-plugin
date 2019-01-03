@@ -9,10 +9,6 @@
   "scripts": {
     "build": "node example/build.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@git.xiaojukeji.com:public-fe/author-webpack-plugin.git"
-  },
   "keywords": [
     "webpack",
     "plugin",
