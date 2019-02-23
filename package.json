@@ -1,6 +1,6 @@
 {
-  "name": "@didi/author-webpack-plugin",
-  "version": "0.0.2",
+  "name": "author-webpack-plugin",
+  "version": "0.0.3",
   "description": "Add author information in gererated html template",
   "main": "index.js",
   "files": [

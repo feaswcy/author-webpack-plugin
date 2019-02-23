@@ -4,12 +4,12 @@ Author Webpack Plugin
 # 使用
 安装
 ```
-dnpm install @didi/author-webpack-plugin
+npm install author-webpack-plugin
 ```
 
 在webpack的配置文件中，引入
 ```javascript
- const AuthorWebpackPlugin = require('@didi/author-webpack-plugin')
+ const AuthorWebpackPlugin = require('author-webpack-plugin')
 ```
 在插件中使用
 

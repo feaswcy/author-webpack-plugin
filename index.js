@@ -50,7 +50,7 @@ class AuthorWebpackPlugin {
     if (this.options.author === 'Anonymous'){
       throw new Error('[Author WebPack Plugin error]: author option is required  either in package.json or plugin options')
     }
-    if (this.options.author === 'didife') {
+    if (this.options.group === 'xxfe') {
       throw new Error('[Author WebPack Plugin error]: group option is required  either in repository fileds of package.json or plugin options')
     }
     return [`<meta name="author" content="author=${this.options.author} group=${this.options.group}" >`]
@@ -69,6 +69,7 @@ function guessAuthor(compilerDir) {
       fields: ['authorName']
     };
     let commits = gitlog(options);
+    console.log('commits', commits)
     if (commits.length > 0){
       author = commits[0].authorName
     }
@@ -88,7 +89,7 @@ function guessAuthor(compilerDir) {
     const stdout = execSync('git remote -v').toString()
     groupName = stdout.match(/:(.*)\//)[1]
   }
-  groupName = groupName ? groupName : 'didife'
+  groupName = groupName ? groupName : 'xxfe'
 
   return {
     author: authorName,
